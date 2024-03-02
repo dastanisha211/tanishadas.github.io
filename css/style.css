@@ -9633,6 +9633,14 @@ textarea.form-control {
   transition: opacity .2s ease-out, visibility 0s linear .2s;
   z-index: 1000; }
 
+  .image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+  }
+  .image-container img {
+    margin-right: 50px; /* Optional: Add some margin between images */
+    margin-bottom: 20px;
+  }
+
 #ftco-loader.fullscreen {
   padding: 0;
   left: 0;
